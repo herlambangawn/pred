@@ -5,6 +5,5 @@ openpyxl
 matplotlib
 statsmodels
 scikit-learn
-tensorflow
 joblib
 
