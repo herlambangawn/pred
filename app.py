@@ -4,7 +4,14 @@ import pandas as pd
 # ==================================================
 # KONFIGURASI HALAMAN
 # ==================================================
+import streamlit as st
 
+try:
+    import openpyxl
+    st.write("Openpyxl version:", openpyxl.__version__)
+except Exception as e:
+    st.error(f"Openpyxl error: {e}")
+    
 st.set_page_config(
     page_title="Prediksi Penjualan Sepeda Listrik",
     page_icon="🚲",
