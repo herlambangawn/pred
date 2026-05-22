@@ -1,9 +1,10 @@
 streamlit
 pandas
 numpy
+openpyxl
 matplotlib
 statsmodels
 scikit-learn
 tensorflow
 joblib
-openpyxl
+
